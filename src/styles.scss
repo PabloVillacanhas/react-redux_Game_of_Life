@@ -1,0 +1,26 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  .conway-grid{
+    margin: 10px auto; 
+    table{
+      margin: 0 auto;
+      border-spacing: 0px;
+      td{
+        padding: 0.3em;
+        &.cell{
+          border: 1px solid navy;
+          &.alive{
+            background-color:black
+          }
+          &.dead{
+            background-color: white
+          }
+          &.preview{
+            background-color: red
+          }
+        }
+      }
+    }
+  }
+}
